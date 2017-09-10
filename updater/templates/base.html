@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>LineageOS Downloads</title>
+        <title>Charles IV's Downloads</title>
         <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
         <link rel="stylesheet" href="/static/site.css">
@@ -9,14 +9,14 @@
         <link rel="icon" sizes="16x16 32x32" href="/static/favicons/favicon.ico">
         <!--[if IE]><link rel="shortcut icon" href="/static/favicons/favicon.ico"><![endif]-->
         <link rel="apple-touch-icon-precomposed" href="/static/favicons/favicon-152.png">
-        <meta name="theme-color" content="#167C80">
-        <meta name="msapplication-TileColor" content="#167C80">
+        <meta name="theme-color" content="#0000FF">
+        <meta name="msapplication-TileColor" content="#0000FF">
         <meta name="msapplication-TileImage" content="/static/favicons/favicon-144.png">
     </head>
     <body>
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo center">LineageOS Downloads</a>
+                <a href="#!" class="brand-logo center">Charles IV's Downloads</a>
                 <ul id="slide-out" class="side-nav fixed">
                     <li>
                         <div class="userView">
@@ -32,9 +32,9 @@
                         <ul class="collapsible collapsible-accordian">
                             <li class="bold">
                                 {% if oem == active_oem %}
-                                <a class="collapsible-header waves-effect waves-teal bold active">{{oem}}</a>
+                                <a class="collapsible-header waves-effect waves-blue bold active">{{oem}}</a>
                                 {% else %}
-                                <a class="collapsible-header waves-effect waves-teal bold">{{oem}}</a>
+                                <a class="collapsible-header waves-effect waves-blue bold">{{oem}}</a>
                                 {% endif %}
                                 <div class="collapsible-body">
                                     <ul>
@@ -81,7 +81,7 @@
             <div class="row">
               <div class="col l12 s12">
                   {% if not changelog %}
-                  <p class="grey-text text-lighten-4">You can verify a file has not been tampered with by checking its signature. More information on how to do this can be found <a class="grey-text text-lighten-1" href="https://wiki.lineageos.org/verifying-builds.html">here</a>.</p>
+                  <!-- <p class="grey-text text-lighten-4">You can verify a file has not been tampered with by checking its signature. More information on how to do this can be found <a class="grey-text text-lighten-1" href="https://wiki.lineageos.org/verifying-builds.html">here</a>.</p> -->
                   {% endif %}
               </div>
             </div>
@@ -89,7 +89,7 @@
           <div class="footer-copyright">
             <div class="container">
             © 2017 LineageOS. Licensed under Apache 2.0.
-            <a class="grey-text text-lighten-4 right" href="https://github.com/lineageos/lineageos_updater">Source</a>
+            <a class="grey-text text-lighten-4 right" href="https://github.com/Charles-IV/lineageos_updater">Source</a>
             </div>
           </div>
         </footer>
