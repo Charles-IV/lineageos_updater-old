@@ -50,6 +50,7 @@
   {  "model": "gprimeltespr", "oem": "Samsung", "name": "Galaxy GRAND Prime (LTE) (Sprint)"},
   {  "model": "gprimeltexx", "oem": "Samsung", "name": "Galaxy GRAND Prime (LTE)"},
   {  "model": "griffin", "oem": "Motorola", "name": "Moto Z"},
+  {  "model": "grouper", "oem": "Google", "name": "Nexus 7 (Wi-Fi)"},
   {  "model": "gtelwifiue", "oem": "Samsung", "name": "Galaxy Tab E 9.6 (Wi-Fi)"},
   {  "model": "gtesqltespr", "oem": "Samsung", "name": "Galaxy Tab E 8.0 (LTE)"},
   {  "model": "gts210ltexx", "oem": "Samsung", "name": "Galaxy Tab S2 9.7 (LTE)"},
